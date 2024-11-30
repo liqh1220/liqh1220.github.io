@@ -1,0 +1,89 @@
+body {
+    /* 原版 */
+    font-family: "LXGW WenKai", sans-serif;
+    /* 屏幕优化版 */
+    font-family: "LXGW WenKai Screen", sans-serif;
+    padding-top: 50px;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+/* 设置中文缩进两格,一点五倍行距 */
+p {
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+/* 设置超链接颜色 */
+a {text-decoration: none;}
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* 设置返回首页的按钮 */
+.back-to-home-btn {
+    display: block;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color: #222222;
+    color: green;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    z-index: 1000;
+}
+
+/* 鼠标悬停时改变背景色 */
+.back-to-home-btn:hover {
+    background-color: violet;
+}
+
+/* 设置页脚 */
+footer {
+    background-color: #f8f9fa; /* 背景颜色 */
+    padding: 20px 0;           /* 内边距 */
+    text-align: center;        /* 文字居中 */
+    color: #6c757d;            /* 文字颜色 */
+    font-size: 0.9em;          /* 字体大小 */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-icon {
+    width: 12%;               /*图标宽度 */
+    height: auto;             /* 图标高度 */
+    margin-right: 10px;        /* 右侧间距 */
+    fill: currentColor;        /* 使用当前文字颜色填充 */
+}
+
+.red-heart {
+    color: red;
+    font-size: 20px;
+}
+
+
+.content-paragraph {
+    font-family:  "LXGW WenKai Screen" , sans-serif;
+}
