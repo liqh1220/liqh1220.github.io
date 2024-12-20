@@ -1,0 +1,5 @@
+windows terminal
+powershell 7
+edge / chrome /firefox
+libreoffice / wps
+git / neovim / vscode / clang / gcc 
