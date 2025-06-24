@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh_Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-screen-webfont/1.7.0/style.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>书单</title>
+</head>
+
+<body>
+    <!-- 回到首页按钮 -->
+    <h3><a href="../index.html" class="back-to-home-btn">Hello World</a></h3>
+
+<!-- 间隔-->
+    <h1>关于阅读那些事</h1>
+    <p font-family: "LXGW WenKai Screen" , sans-serif>通过阅读西方正典，如何阅读一本书的书单来进行规划。对于中国的作品，古代看经史子集，小说笔记等等。近现代的作品看各个作家的作品，文学作品之类。当代作家要看杂志之类了，还有些诗歌作品也可以看。小说，戏剧，诗歌，散文等等。蒙田散文，或者爱默生的诗歌，都德的随笔，屠格涅夫的散文之类的</p>
+
+    <p font-family: "LXGW WenKai Screen" , sans-serif><li><a href="./book-review/cathulhu-mythos.html" >克苏鲁神话</a></li></p>
+
+    <p font-family: "LXGW WenKai Screen" , sans-serif>default text</p>
+    <p class="content-paragraph">世界和平.</p>
+
+
+    <hr>
+    <a href="link ">alter words</a>
+
+
+
+    <!-- footer 用来放置版权声明,联系方式, -->
+    <footer>
+        <div class="footer-content">
+            <p>版权所有 @ 2025
+            <div class="red-heart">&hearts;</div> liqh1220</p>&emsp;
+            <img src="../img/CC-by-nc-sa.svg" class="copyright-icon">
+        </div>
+    </footer>
+
+</body>
+
+</html>
